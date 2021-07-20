@@ -6,21 +6,26 @@ $(document).ready(function () {
 
     var entries = [
 
-        { label: 'Dev Blog' },
-        { label: 'Flashforum' },
-        { label: 'jQueryScript.net' },
-        { label: 'Javascript-Forum' },
-        { label: 'JSFiddle' },
-        { label: 'CodePen' },
-        { label: 'three.js' },
-        { label: 'WebGLStudio.js' },
-        { label: 'JS Compress' },
-        { label: 'TinyPNG' },
-        { label: 'Can I Use' },
-        { label: 'URL shortener' },
-        { label: 'HTML Encoder' },
-        { label: 'Twitter' },
-        { label: 'deviantART' }
+        { label: 'HTML' },
+        { label: 'CSS' },
+        { label: 'JavaScript' },
+        { label: 'jQuery' },
+        { label: 'React.js' },
+        { label: 'Node.js' },
+        { label: 'Express.js' },
+        { label: 'MongoDB' },
+        { label: 'Bootstrap' },
+        { label: 'API' },
+        { label: 'ES5/ES6' },
+        { label: 'Photoshop' },
+        { label: 'Illustrator' },
+        { label: 'Frontend' },
+        { label: 'Java' },
+        { label: 'C' },
+        { label: 'JSON' },
+        { label: 'Wordpress' },
+        { label: 'Git' },
+        { label: 'GitBash' },
     ];
 
     var settings = {
