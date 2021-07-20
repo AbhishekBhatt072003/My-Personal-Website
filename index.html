@@ -14,6 +14,12 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="/assets/css/styles.css">
 
+    <!----------------------- Globe---------------------- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src='assets/js/jquery.svg3dtagcloud.min.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="assets/js/globe.js"></script>
+
     <title>Responsive Portfolio Website</title>
 </head>
 
@@ -141,8 +147,13 @@
             </h2>
             <span class="section_subtitle">Me, Myself, and I</span>
             <div class="about_container container grid">
-                <img src="/assets/img/about.jpg" alt="" class="about_img">
+                <!-- <img src="/assets/img/about.jpg" alt="" class="about_img"> -->
+
+
+
+
                 <div class="about_data">
+                    <img src="/assets/img/about.jpg" alt="" class="about_img">
                     <p class="about_description">
                         Web developer, with extensive knowledge and years of experience,
                         working in web technologies and Ui / Ux design, delivering quality work.</p>
@@ -171,6 +182,8 @@
                         </a>
                     </div>
                 </div>
+
+                <div id='holder'></div>
             </div>
         </section>
 
